@@ -1,0 +1,35 @@
+{
+	"name": "unocss-memory-repro",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@iconify-json/bi": "1.1.12",
+		"@sveltejs/adapter-node": "1.0.0-next.101",
+		"@sveltejs/kit": "1.0.0-next.567",
+		"@unocss/core": "0.47.2",
+		"@unocss/preset-icons": "0.47.2",
+		"@unocss/preset-uno": "0.47.2",
+		"@unocss/preset-web-fonts": "0.47.2",
+		"@unocss/reset": "0.47.2",
+		"mini-svg-data-uri": "^1.4.4",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.53.1",
+		"svelte-check": "^2.9.2",
+		"svelte-preprocess": "^4.10.7",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"unocss": "0.47.2",
+		"vite": "^3.2.4"
+	},
+	"type": "module"
+}
